@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background"
+    tools:context="com.example.android.booklisting_app.MainBookActivity">
+
+    <RelativeLayout
+        android:id="@+id/searchInput_Layout"
+        style="@style/RelativeLayout">
+
+        <EditText
+            android:id="@+id/editSearch"
+            android:labelFor="@id/editSearch"
+            style="@style/EditText"
+            android:layout_toStartOf="@id/search_button" />
+
+        <Button
+            android:id="@+id/search_button"
+            style="@style/Button_style" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/List_style"
+        android:layout_below="@id/searchInput_Layout" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/Empty_text" />
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

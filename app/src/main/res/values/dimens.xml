@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_margin">5dp</dimen>
+    <dimen name="little_padding">4dp</dimen>
+    <dimen name="textSize1">20sp</dimen>
+    <dimen name="textSize2">16sp</dimen>
+    <dimen name="dividerSize">2dp</dimen>
+
+
+</resources>

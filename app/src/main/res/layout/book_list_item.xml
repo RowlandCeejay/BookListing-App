@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:padding="@dimen/little_padding">
+
+        <TextView
+            android:id="@+id/book_title"
+            style="@style/Book_title"
+            tools:text="@string/book_title"/>
+
+        <TextView
+            android:id="@+id/book_author"
+            style="@style/Book_author"
+            tools:text="@string/book_author"/>
+</LinearLayout>
